@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dfa825770c5486b9d95384bc7f7a1a, type: 3}
+  m_Name: Tasks
+  m_EditorClassIdentifier: 
+  categories:
+  - name: Normal
+    color: {r: 0, g: 0, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  - name: Urgent
+    color: {r: 1, g: 0, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  - name: In Progress
+    color: {r: 0, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    trackTime: 1
+  - name: Note
+    color: {r: 0, g: 1, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  people:
+  - name: Yuriy
+    color: {r: 0, g: 0, b: 0, a: 1}
+    icon: {fileID: 2800000, guid: 6aac457b21743eb4ca1e4b2d96774e1a, type: 3}
+    trackTime: 1
+  tags:
+  - name: Programming
+    color: {r: 0, g: 0, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  - name: Art
+    color: {r: 1, g: 0, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  - name: Level Design
+    color: {r: 0, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  - name: Other
+    color: {r: 0, g: 1, b: 0, a: 1}
+    icon: {fileID: 0}
+    trackTime: 0
+  tasks:
+  - task: Update project with async functionality
+    categoryId: 2
+    personId: 0
+    tagId: 0
+    isComplete: 1
+    isArchived: 0
+    timeAdded: 03.05.2020 18:11:38
+    timeCompleted: 03.05.2020 18:19:04
+    timeEstimate: 2
+    timeSpent: 0
+  - task: Check
+    categoryId: 0
+    personId: 0
+    tagId: 0
+    isComplete: 1
+    isArchived: 1
+    timeAdded: 03.05.2020 18:12:26
+    timeCompleted: 03.05.2020 18:17:42
+    timeEstimate: 2
+    timeSpent: 0
